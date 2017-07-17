@@ -14,6 +14,15 @@ exports.show = function* (ctx) {
     console.log("show")
     ctx.body = "show";
 };
-exports.edit = function* () {};
-exports.update = function* () {};
-exports.destroy = function* () {};
+exports.edit = function* (ctx) {
+    console.log("edit")
+    ctx.body = "edit";
+};
+exports.update = function* (ctx) {
+    console.log("update")
+    ctx.body = "update";
+};
+exports.destroy = function* (ctx) {
+    console.log("destroy")
+    ctx.body = "destroy";
+};
