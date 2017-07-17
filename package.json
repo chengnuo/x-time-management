@@ -4,7 +4,8 @@
   "description": "时间管理",
   "private": true,
   "dependencies": {
-    "egg": "^1.4.0"
+    "egg": "^1.4.0",
+    "egg-validate": "^1.0.0"
   },
   "devDependencies": {
     "autod": "^2.8.0",
